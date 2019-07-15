@@ -6,14 +6,19 @@ Choropleth map design using D3
 How to set up this project on your laptop:
 
 1. Run local server
+
 a) Open cmd terminal and set working directory with cd command
   <img src="readme/terminal.png" />
+
 b) Check the: ipconfig
   the server is run on this IPv4 Address - 000.000.0.000
+
 c) Type and enter: python -m http.server 8000
+
 d) Open http://localhost:8000 on a browser
   
   Congratulations, you run a server and can try the map!
+  
   
   
 2. Links to the data contributors:
