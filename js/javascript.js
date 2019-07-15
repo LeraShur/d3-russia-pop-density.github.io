@@ -1,9 +1,9 @@
 var h1 = d3.select("body")
     .append("h1")
-    .text("Russian population density")
+    .text("Russia's population density")
 
 var width = window.innerWidth;
-var height = window.innerHeight - 95;
+var height = window.innerHeight - 55;
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -35,7 +35,7 @@ var tooltip = d3.select("body").append("div")
 
 // Load external data and boot
 d3.queue()
-    .defer(d3.json, "data/russia_demogr.json")
+    .defer(d3.json, "data/russia_pop_density_2018.geojson")
     .defer(d3.csv, "data/russia_pop_density_2018.csv", function (d) {
         data.set(d.NAME, +d.POP_DENS);
     })
