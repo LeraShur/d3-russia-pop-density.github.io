@@ -1,0 +1,45 @@
+h1 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #444444;
+  font-weight: 100;
+  margin-top: 0.1%;
+  margin-bottom: 0.1%;
+  margin-left: 1%;
+}
+h2 {
+  color: #444444;
+  font-family: "Helvetica";
+  font-weight: 100;
+  font-size: 0.85em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 1%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: whitesmoke;
+}
+path {
+  stroke: #000;
+  stroke-width: 0.5px;
+    animation-fill-mode: forwards;
+}
+path:hover {
+  fill: #f0ff00a1;
+}
+div.tooltip { 
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: #fff;
+  border: 0px;
+  pointer-events: none;
+}
+.legend {
+  color: #444444;
+  font: 14px Helvetica ;
+}
