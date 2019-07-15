@@ -32,6 +32,7 @@ b) Russian Federal State Statistics Service http://www.gks.ru - population
 3. Some sources on how to begin working with D3.js that I used:
 
 a) How to set up D3 environment (free videos):
+
 O’Reilly training course
 https://player.oreilly.com/videos/9781783283736
 
