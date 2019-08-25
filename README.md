@@ -1,5 +1,5 @@
 # d3-russia-pop-density.github.io
-Choropleth map design using D3
+The Choropleth Map, designed using D3, conveys a general picture of population density across Russia in 2018. According to the result,  distribution from the most populated areas to least populated goes from European to Asian part of the country. As this project is created in terms of Assignment 3 of Multimedia Cartography course, it is presented additionaly as an interactive map that can help user  explore population density in more details and track the slightest changes across administrative divisions.
 
 <img src="readme/example.gif" />
 
