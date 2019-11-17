@@ -98,7 +98,7 @@ svg.append("svg")
  .attr("font-family", "Calibri")
  .attr("font-size", "12px")
  .attr("fill-opacity", 0.25)
- .on("click", function () { window.open("http://www.gks.ru/wps/wcm/connect/rosstat_main/rosstat/en/main/"); });
+ .on("click", function () { window.open("http://www.gks.ru"); });
 
 // Legend
 var thresholdScale = d3.scaleThreshold()
@@ -118,30 +118,3 @@ var legend = d3.legendColor()
 
 svg.select(".legend")
  .call(legend);
-
-
-
-
-
-
-//Additional Russia area filtered from the world map
-/* d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson", function (data) {
-
-    // Filter data
-    data.features = data.features.filter(function (d) {
-        console.log(d.properties.name);
-        return d.properties.name == "Russia"
-    })
-
-    // Draw the map
-    svg.append("g")
-        .selectAll("path")
-        .data(data.features)
-        .enter()
-        .append("path")
-        .attr("fill", "grey")
-        .attr("d", d3.geoPath()
-            .projection(projection)
-        )
-        .style("stroke", "none")
-})  */
